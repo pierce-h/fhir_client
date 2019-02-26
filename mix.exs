@@ -8,7 +8,8 @@ defmodule FhirClient.MixProject do
       elixir: "~> 1.7",
       start_permanent: Mix.env() == :prod,
       package: package(),
-      name: "FhirClient",
+      description: description(),
+      name: "fhir_client",
       source_url: "https://github.com/pierce-h/fhir_client",
       deps: deps()
     ]
